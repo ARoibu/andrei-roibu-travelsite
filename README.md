@@ -1,7 +1,7 @@
 # andrei-roibu-travelsite
 # Description
 
-The purpose of this project is to practice the basics of working with Git and GitHub.
+The purpose of this project is to recreate a basic travel website from mockups provided.
 
 ## Usage
 
