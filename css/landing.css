@@ -1,6 +1,7 @@
 .hero{
     background-color: #fefaf5;
     display: flex;
+    justify-content: space-between;
 }
 .hero__title{
     font-size: 35px;
@@ -8,7 +9,8 @@
     margin-bottom: 30px;
 }
 .hero__content{
-    margin-left: 70px;
+    margin-left: 100px;
+    margin-top: 80px;
 }
 .hero__text{
     font-size: 14px;
@@ -16,8 +18,8 @@
     text-align: left;
 }
 .hero__image{
-    width: 400px;
-    margin: 50px 70px 70px 100px;
+    max-width: 40%;
+    margin: 120px 70px 70px 100px;
 }
 .hero__button{
     background-color: #DB7A4E;
@@ -31,7 +33,7 @@
     color: #FFFFFF;
 }
 .recommendations__title{
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 40px;
     margin-bottom: 30px;
 }
@@ -39,6 +41,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 .recommendations__card{
     width: 250px;
@@ -52,6 +55,10 @@
     align-items: flex-end;
     font-size: 21px;
     font-weight:bold;
+}
+.recommendations__card:hover{
+    border: solid 1px blue;
+    transition: .5s;
 }
 .recommendations__card--hawaii-image{
     background-image:url(../assets/pictures/hawaii.jpg);
@@ -69,4 +76,7 @@
     color: #FFFFFF;
     margin-bottom: 15px;
     margin-right: 15px;
+}
+.recommendations__card--underline-remove{
+    text-decoration: none;
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            
+            <h1><a class="nav__logo" href="../index.html">Travel Site</a></h1>
+            
+            <ul class="nav__bar">   
+                <li><a class="nav__link nav__link--underline" href="../index.html">Home</a></li>
+                <li><a class="nav__link" href="hawaii.html">Hawaii</a></li>     
+                <li><a class="nav__link" href="iceland.html">Iceland</a></li>  
+                <li><a class="nav__link" href="greece.html">Greece</a></li>         
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form>
+                <br><br><br><br><br>
+                <h1>Booking Form</h1><br>
+                <p>Select Your Destination:</p><br>
+                <input type="radio" id="Hawaii" name="Destination" value="Hawaii">
+                <label for="Hawaii">Hawaii</label><br>
+                <input type="radio" id="Iceland" name="Destination" value="Iceland">
+                <label for="Iceland">Iceland</label><br>
+                <input type="radio" id="Greece" name="Destination" value="Greece">
+                <label for="Greece">Greece</label><br><br>
+                <label for="E-mail">E-Mail</label><br>
+                <input type="text" id="E-mail" name="E-mail"><br><br>
+                <textarea rows="3" cols="30">Message</textarea><br><br>
+                <input type="submit" value="submit"><br>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section>
+            <h2>Contact</h2>
+            <h3 class="footer__subheading">EMAIL</h3>
+            <p class="footer__text">info@travelsite.com</p>
+        </section>
+        <section class="footer__hours">
+            <div class="footer__hours-margin">
+                <h2>Hours</h2>
+                <h3 class="footer__subheading">MONDAY - FRIDAY</h3>
+                <p class="footer__text">9:00 AM - 5:00 PM</p>
+            </div>
+            <div class="footer__hours-margin">
+                <h3 class="footer__subheading">SATURDAY</h3>
+                <p class="footer__text">10:00 AM - 4:00 PM</p>
+            </div>
+            <div class="footer__hours-margin">
+                <h3 class="footer__subheading">SUNDAY</h3>
+                <p class="footer__text">Closed</p>
+            </div>
+        </section>
+        <section>
+            <h2>Social</h2>
+            <a href="https://www.instagram.com"><img class="footer__social-icon" src="../assets/icons/icon-instagram.png"></a>
+            <a href="https://www.facebook.com"><img class="footer__social-fb" src="../assets/icons/icon-facebook.png"></a>
+            <a href="https://www.twitter.com"><img class="footer__social-icon" src="../assets/icons/icon-twitter.png"></a>
+        </section>
+    </footer>
+</body>
+</html>
