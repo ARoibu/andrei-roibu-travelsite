@@ -1,7 +1,8 @@
 # andrei-roibu-travelsite
 # Description
 
-The purpose of this project is to recreate a basic travel website from mockups provided.
+The purpose of this project is to recreate a basic travel website from mockups and style guide provided.
+HTML and CSS was used for this project. Effects and animations were included. 
 
 ## Usage
 
